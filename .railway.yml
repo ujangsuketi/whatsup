@@ -1,7 +1,8 @@
 build:
   builder: nixpacks
-  buildCommand: |
-    # Set PHP version to 8.2
-    echo "php = \"8.2\"" >> nixpacks.toml
-    # Continue with your build commands
-    composer install --no-dev
+  nixpacks:
+    pkgs:
+      - php82
+      - php82.composer
+    build:
+      - composer install --no-dev
