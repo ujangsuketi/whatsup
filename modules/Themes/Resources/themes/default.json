@@ -1,0 +1,11 @@
+{
+    "name": "Default",
+    "file": "default.json",
+    "description": "Default theme",
+    "colors": {
+        "primary": "#5e72e4",
+        "secondary": "#f5f5f5", 
+        "tertiary": "#ffffff"
+    },
+    "css_content": ""
+}

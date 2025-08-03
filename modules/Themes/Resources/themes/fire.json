@@ -1,0 +1,11 @@
+{
+    "name": "Sunset",
+    "file": "fire.json",
+    "description": "A warm, gradient theme inspired by dusk colors with clean modern aesthetics",
+    "colors": {
+        "primary": "#FF4D00",
+        "secondary": "#F8F9FA", 
+        "tertiary": "#1A1A1A"
+    },
+    "css_content": "/* Fonts */\n@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');\n\n/* Root Variables */\n:root {\n    --primary: #FF4D00;\n    --secondary: #F8F9FA;\n    --text-primary: #1A1A1A;\n    --border-color: #E5E7EB;\n}\n\n/* Body Styles */\nbody {\n    font-family: 'Inter', sans-serif !important;\n    background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F0 100%) !important;\n    min-height: 100vh !important;\n    color: var(--text-primary) !important;\n}\n\n/* Navbar Styles */\n.navbar {\n    background: white !important;\n    border-bottom: 1px solid var(--border-color) !important;\n}\n\n.navbar-nav {\n    font-weight: 500;\n}\n\n.navbar-nav .nav-link {\n    color: var(--text-primary) !important;\n}\n\n.navbar-nav .nav-link.active {\n    color: #ffffff !important;\n    background: var(--primary) !important;\n    border-radius: 6px;\n}\n\n/* Card Styles */\n.card {\n    border: 1px solid var(--border-color) !important;\n    border-radius: 8px !important;\n    box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;\n}\n\n/* Button Styles */\n.btn-primary {\n    background: var(--primary) !important;\n    border: none !important;\n    border-radius: 6px !important;\n    color: #ffffff !important;\n}\n\n/* Links */\na {\n    color: #E64500 !important;\n    text-decoration: none !important;\n    transition: color 0.2s ease;\n}\n\na:hover {\n    color: #FF4D00 !important;\n}"
+}

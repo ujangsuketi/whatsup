@@ -1,0 +1,11 @@
+{
+    "name": "Galaxy",
+    "file": "galaxy.json",
+    "description": "Galaxy theme",
+    "colors": {
+        "primary": "#8A2BE2",
+        "secondary": "#1E1E2F",
+        "tertiary": "#9B59B6"
+    },
+    "css_content": "/* Root Variables */\n:root {\n    --primary: #8A2BE2;\n}\n\n/* Body Styles */\nbody {\n    font-family: \"Space Mono\", monospace !important;\n    background: #1E1E2F !important;\n    color: #ffffff !important;\n}\n\n/* Form Styles */\n.form-control-label {\n    color: #ffffff !important;\n}\n\n.text-muted {\n    color: #B4B7E5 !important;\n}\n\n/* Navbar Styles */\n.navbar-nav {\n    font-weight: bold;\n    color: var(--primary) !important;\n}\n\n.navbar-nav .nav-link.active {\n    background-color: var(--primary) !important;\n    border-radius: 2rem;\n    color: #ffffff !important;\n}\n\n/* Card Styles */\n.card {\n    background-color: #9B59B6 !important;\n    box-shadow: rgba(138, 43, 226, 0.2) 0px 10px 20px !important;\n}"
+}

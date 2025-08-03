@@ -1,0 +1,24 @@
+{
+    "alias": "stripeh-subscribe",
+    "isPaymentModule":false,
+    "isSubscriptionModule":true,
+    "name": "Stripeh",
+    "version": "1.0.0",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\StripehSubscribe\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "global_fields":[
+        {
+            "separator":"Stripe Hosted Checkout configuration",
+            "title":"Stripe Webhook secret", 
+            "key":"STRIPE_WEBHOOK_SECRET", 
+            "value":""
+        }
+    ]
+}

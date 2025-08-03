@@ -1,0 +1,11 @@
+{
+    "name": "Desert",
+    "file": "desert.json",
+    "description": "Desert theme",
+    "colors": {
+        "primary": "#E4A853",
+        "secondary": "#FFF3E0",
+        "tertiary": "#ffffff"
+    },
+    "css_content": "/* Root Variables */\n:root {\n    --primary: #E4A853;\n}\n\n/* Body Styles */\nbody {\n    font-family: \"Roboto\", sans-serif !important;\n    background: #FFF3E0 !important;\n}\n\n/* Navbar Styles */\n.navbar-nav {\n    font-weight: bold;\n    color: var(--primary) !important;\n}\n\n.navbar-nav .nav-link.active {\n    background-color: var(--primary) !important;\n    color: #ffffff !important;\n}\n\n/* Button Styles */\n.btn-primary {\n    background-color: #F4A261 !important;\n    color: #ffffff !important;\n}"
+}

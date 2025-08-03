@@ -1,0 +1,11 @@
+{
+    "name": "Ocean",
+    "file": "ocean.json",
+    "description": "Ocean theme",
+    "colors": {
+        "primary": "#0077B6",
+        "secondary": "#f8f9fa",
+        "tertiary": "#ffffff"
+    },
+    "css_content": "/* Root Variables */\n:root {\n    --primary: #0077B6;\n}\n\n/* Body Styles */\nbody {\n    font-family: \"Poppins\", sans-serif !important;\n    background: #f8f9fa !important;\n}\n\n/* Navbar Styles */\n.navbar-nav {\n    font-weight: 500;\n    color: var(--primary) !important;\n}\n\n.navbar-nav .nav-link.active {\n    background-color: var(--primary) !important;\n    border-radius: 0.5rem;\n    color: #ffffff !important;\n}\n\n/* Card Styles */\n.card {\n    background-color: #ffffff !important;\n    box-shadow: rgba(0, 119, 182, 0.05) 0px 4px 12px !important;\n}"
+}

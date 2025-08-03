@@ -1,0 +1,20 @@
+{
+    "alias": "themes",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Themes\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "adminmenus":[
+        {
+            "name":"Themes",
+            "icon":"ni ni-palette text-green",
+            "route":"themes.index"
+        }
+    ]
+}
