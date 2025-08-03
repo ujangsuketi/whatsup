@@ -7,13 +7,18 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Install ekstensi PHP yang dibutuhkan (sesuaikan jika perlu)
 RUN apt-get update && apt-get install -y \
     git \
+    curl \
     libzip-dev \
-    libpng-dev \
     libonig-dev \
+    libpng-dev \
     libxml2-dev \
+    libjpeg-dev \
+    libwebp-dev \
     zip \
     unzip \
-    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
+    && docker-php-ext-configure gd --with-jpeg --with-webp \
+    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip \
+    && docker-php-ext-enable pdo_mysql mbstring exif pcntl bcmath gd zip
 
 # Set working directory di dalam container
 WORKDIR /app
