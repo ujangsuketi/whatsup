@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.railway.app/schemas/railway.schema.json",
+  "build": {
+    "builder": "Nixpacks",
+    "nixpacks": {
+      "pkgs": [
+        "php82",
+        "php82.composer"
+      ]
+    }
+  }
+}
