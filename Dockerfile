@@ -28,7 +28,7 @@ COPY . /app
 
 # Jalankan composer install
 # --no-dev untuk produksi, --optimize-autoloader untuk performa
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install --no-dev --no-scripts --optimize-autoloader
 
 # Hapus cache yang tidak perlu
 RUN rm -rf /root/.composer
